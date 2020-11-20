@@ -1,5 +1,6 @@
 body {
   text-align: center;
+  color: rgb(87, 85, 180);
   background-color: skyblue;
 }
 
@@ -12,8 +13,10 @@ h1 {
   border-style: double;
   border-radius: 10px;
   border-width: 20px;
+  border-color: black;
   margin-left: 25%;
   margin-right: 25%;
+  color: black;
 }
 
 
@@ -21,6 +24,7 @@ h1 {
   border-style: double;
   border-radius: 10px;
   border-width: 20px;
+  border-color: black;
   margin-left: 35%;
   margin-right: 35%;
   
