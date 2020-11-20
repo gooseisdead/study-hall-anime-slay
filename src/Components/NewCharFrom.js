@@ -28,13 +28,12 @@ class NewCharForm extends React.Component {
                         show: ''
                     })
                 }}>
-                    <input type="text" name="name" placeholder="enter character name" value={this.state.name} onChange={this.newCharHandler} />
-                    <br></br>
-                    <input type="text" name="img" placeholder="enter image url" value={this.state.img} onChange={this.newCharHandler} />
-                    <br></br>
+                    •<input type="text" name="name" placeholder="enter character name" value={this.state.name} onChange={this.newCharHandler} /> •
+                    <input type="text" name="img" placeholder="enter image url" value={this.state.img} onChange={this.newCharHandler} /> •
                     <input type="text" name="show" placeholder="enter character show" value={this.state.show} onChange={this.newCharHandler} />
                     <br></br>
-                    <input type="submit" value="add character" />
+                    <br></br>
+                    <button>Submit Character</button>
                 </form>
                 <br />
             </div>
